@@ -1,0 +1,154 @@
+/* There are some lines that are not needed, but it works so I will leave it be */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #041e27;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc70;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #041e27;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.exercise-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.exercise-links a {
+  background-color: #041e27;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.exercise-links a:hover {
+  background-color: #063847;
+}
+
+.logo-white {
+  height: 120px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content h1 {
+  color: #041e27;
+}
+
+body.dark-mode .content h1 {
+  color: #f8f9fa;
+}
+
+.content p {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#toggleThemeBtn {
+  margin-top: 25px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #041e27;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#toggleThemeBtn:hover {
+  background-color: #063847;
+}
+
+
+body.dark-mode {
+  background-color: #041e27;
+  color: #f8f9fa;
+}
+
+body.dark-mode header {
+  background-color: #f8f9fa;
+  color: #041e27;
+}
+
+body.dark-mode nav a {
+  color: #041e27;
+}
+
+body.dark-mode
+
+body.dark-mode nav a:hover {
+  color: #ffcc70;
+}
+
+body.dark-mode #toggleThemeBtn {
+  background-color: #f8f9fa;
+  color: #041e27;
+}
+
+body.dark-mode #toggleThemeBtn:hover {
+  background-color: #e1e8ea;
+}
